@@ -1,0 +1,87 @@
+/* ================================
+   GAIA Seller Console (GLOBAL OVERRIDE)
+   Scope: only /seller pages
+   ================================ */
+
+/* Seller root (senin layout'ta className="rgz-seller-app" var) */
+.rgz-seller-app{
+  min-height:100vh;
+  display:grid;
+  grid-template-columns:260px 1fr;
+  background: radial-gradient(1200px 800px at 20% 0%, rgba(240,101,41,.14), transparent 60%),
+              var(--bg, #0b0f19);
+  color: var(--text, rgba(255,255,255,.92));
+}
+
+/* Left nav */
+.rgz-seller-nav{
+  position:sticky;
+  top:0;
+  height:100vh;
+  border-right:1px solid var(--border, rgba(255,255,255,.10));
+  padding:18px 14px;
+  background: rgba(10,14,24,.72);
+  backdrop-filter: blur(12px);
+}
+
+/* Brand */
+.rgz-seller-brand{
+  font-weight:800;
+  letter-spacing:.2px;
+  margin-bottom:14px;
+}
+
+/* Section label */
+.rgz-seller-section{
+  margin-top:18px;
+  margin-bottom:8px;
+  font-size:11px;
+  letter-spacing:.14em;
+  opacity:.7;
+}
+
+/* Links */
+.rgz-seller-link{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 10px;
+  border-radius:12px;
+  text-decoration:none;
+  color:inherit;
+  opacity:.86;
+  transition: all .18s ease;
+}
+
+.rgz-seller-link:hover{
+  background: rgba(255,255,255,.06);
+  opacity:1;
+}
+
+.rgz-seller-link.active{
+  background: rgba(240,101,41,.16);
+  outline:1px solid rgba(240,101,41,.26);
+  opacity:1;
+}
+
+/* Bottom area */
+.rgz-seller-bottom{
+  position:absolute;
+  left:14px;
+  right:14px;
+  bottom:14px;
+}
+/* FIX: Seller nav absolute bottom düzgün dursun */
+.rgz-seller-nav{ position: sticky; top:0; height:100vh; position:sticky; }
+.rgz-seller-nav{ position: sticky; } /* kalsın */
+.rgz-seller-nav{ position: sticky; } /* ok */
+.rgz-seller-nav{ position: sticky; } /* ok */
+.rgz-seller-nav{ position: relative; } /* ✅ en kritik satır */
+.rgz-seller-main{ min-width:0; overflow-x:hidden; }
+
+/* Main content */
+.rgz-seller-main{
+  padding:22px 22px 48px;
+}
+
+

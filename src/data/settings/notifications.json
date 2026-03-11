@@ -1,0 +1,8 @@
+{
+  "orderUpdates": true,
+  "payoutUpdates": true,
+  "productReviews": true,
+  "marketing": false,
+  "security": true
+}
+

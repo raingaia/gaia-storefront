@@ -1,0 +1,5 @@
+[
+  { "id": "m_1", "email": "hello@gaiastorefront.com", "role": "Owner", "status": "Active" },
+  { "id": "m_2", "email": "seller@GAIA.com", "role": "Manager", "status": "Active" }
+]
+

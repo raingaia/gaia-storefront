@@ -1,0 +1,19 @@
+[
+  {
+    "id": "item_1",
+    "order_id": "ord_10001",
+
+    "store_key": "store_ai-tools",
+    "seller_id": "sel_001",
+
+    "product_id": "prd_7001",
+    "title": "AI Tools Hub Template",
+    "type": "digital",
+    "quantity": 1,
+    "unit_price": 129,
+    "line_total": 129,
+    "currency": "USD"
+  }
+]
+
+

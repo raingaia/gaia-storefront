@@ -1,0 +1,5 @@
+[
+  { "id": "br_nvidia", "name": "nvidia", "title": "NVIDIA", "active": true, "tags": ["gpu", "ai"] },
+  { "id": "br_amd", "name": "amd", "title": "AMD", "active": true, "tags": ["gpu"] }
+]
+
